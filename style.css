@@ -15,7 +15,6 @@ body {
   justify-content: flex-start;
 }
 
-/* Imagem do casal */
 .foto {
   width: 300px;
   border-radius: 10px;
@@ -23,11 +22,10 @@ body {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
 }
 
-/* Caixa da pergunta */
 .box {
   margin: 30px auto;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.6); /* fundo escuro com transparência */
+  background-color: rgba(0, 0, 0, 0.6);
   border: 2px solid #ff69b4;
   border-radius: 10px;
   width: 300px;
@@ -36,7 +34,6 @@ body {
   box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
 }
 
-/* Botões */
 button {
   margin: 10px;
   padding: 10px 20px;
@@ -53,7 +50,6 @@ button:hover {
   transform: scale(1.1);
 }
 
-/* Caixa de diálogo */
 .dialogo {
   margin-top: 20px;
   font-size: 20px;
@@ -61,7 +57,6 @@ button:hover {
   font-weight: bold;
 }
 
-/* Fogos de artifício */
 .fogos {
   display: none;
   position: fixed;
@@ -69,6 +64,6 @@ button:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('https://media.tenor.com/2uyENRmiUt0AAAAC/fireworks.gif') center/cover no-repeat;
+  background: url('https://i.imgur.com/3ZQ3Z5L.gif') center/cover no-repeat;
   z-index: 999;
 }
