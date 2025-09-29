@@ -1,5 +1,6 @@
 function responderSim() {
-  document.getElementById("dialogo").innerText = "ihuuuuuul cuzinho esse final de semana!!";
+  document.getElementById("dialogo").innerText =
+    "Senhor Iago, o destino sorriu-lhe com graça. Prepare o ambiente com velas, vinho e ternura — pois este fim de semana será de deleite e celebração amorosa, terás cuzinho!!.";
   document.getElementById("fogos").style.display = "block";
   setTimeout(() => {
     document.getElementById("fogos").style.display = "none";
