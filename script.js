@@ -1,9 +1,14 @@
 function responderSim() {
   document.getElementById("dialogo").innerText =
     "Senhor Iago, o destino sorriu-lhe com graça. Prepare o ambiente com velas, vinho e ternura — pois este fim de semana será de deleite e celebração amorosa, terás cuzinho!!.";
-  document.getElementById("fogos").style.display = "block";
+
+  // Mostrar fogos com fundo animado
+  const fogos = document.getElementById("fogos");
+  fogos.style.display = "block";
+
+  // Ocultar fogos após 3 segundos
   setTimeout(() => {
-    document.getElementById("fogos").style.display = "none";
+    fogos.style.display = "none";
   }, 3000);
 }
 
