@@ -2,10 +2,8 @@ function responderSim() {
   document.getElementById("dialogo").innerText =
     "Senhor Iago, o destino sorriu-lhe com graça. Prepare o ambiente com velas, vinho e ternura — pois este fim de semana será de deleite e celebração amorosa, terás cuzinho!!.";
 
-  // Tocar som de uhuuu
   document.getElementById("som-sim").play();
 
-  // Mostrar fogos
   const fogos = document.getElementById("fogos");
   fogos.style.display = "block";
 
@@ -22,6 +20,5 @@ function responderNao() {
   box.style.left = x + "px";
   box.style.top = y + "px";
 
-  // Tocar som de nããão
   document.getElementById("som-nao").play();
 }
