@@ -1,26 +1,67 @@
 body {
+  background-image: url('fuleko.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   font-family: sans-serif;
   text-align: center;
-  background-color: #f0f0f0;
+  color: white;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
+
+/* Imagem do casal */
 .foto {
   width: 300px;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
 }
+
+/* Caixa da pergunta */
 .box {
-  margin: 20px auto;
+  margin: 30px auto;
   padding: 20px;
-  background-color: #fff;
-  border: 2px solid #ccc;
+  background-color: rgba(0, 0, 0, 0.6); /* fundo escuro com transparência */
+  border: 2px solid #ff69b4;
+  border-radius: 10px;
   width: 300px;
   position: relative;
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
 }
+
+/* Botões */
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+/* Caixa de diálogo */
 .dialogo {
   margin-top: 20px;
   font-size: 20px;
-  color: green;
+  color: #00ffcc;
+  font-weight: bold;
 }
+
+/* Fogos de artifício */
 .fogos {
   display: none;
   position: fixed;
